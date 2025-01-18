@@ -1,0 +1,416 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "Howdy",
+        "Hola",
+        "What's up?",
+        "How are you?",
+        "How are you doing?"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?",
+        "Hello! How can I assist you today?",
+        "Hi there! What can I do for you?",
+        "Hey! How can I help?",
+        "Good to see you! How can I be of help?"
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "name",
+        "what is your name?"
+      ],
+      "responses": [
+        "Hii, My name is Nova",
+        "Nova here, How can I help you?"
+      ]
+    },
+    {
+      "tag": "nutrition_info",
+      "patterns": [
+        "nutrition",
+        "Tell me about healthy food items",
+        "What are the nutritional values of food?",
+        "Give me details about food products like calories, protein, etc.",
+        "Can you provide health ratings for food?",
+        "What are some dietary improvements I can make?",
+        "What foods are healthy?",
+        "What should I eat for good health?",
+        "What foods are good for me?",
+        "what is calorie value of banana",
+        "what is calorie value of sugar",
+        "what is calorie value of orange",
+        "what is calorie value of apple",
+        "What are the nutritional values of spinach?",
+        "Can you provide details about quinoa?",
+        "Give me some examples of healthy food",
+        "What foods should I eat for a balanced diet?",
+        "What are the benefits of almonds?",
+        "What are some healthy food options?",
+        "What is the calorie count of sweet potatoes?",
+        "Can you share nutritional info about Greek yogurt?",
+        "How is salmon beneficial?",
+        "What is the calorie value of blueberries?",
+        "How much protein is in chickpeas?",
+        "What are the health benefits of avocados?",
+        "Tell me the nutritional value of broccoli",
+        "Is lentils a healthy option?",
+        "What is the fiber content of oats?",
+        "What are the benefits of green tea?",
+        "What foods are good for heart health?",
+        "Which foods are high in antioxidants?",
+        "Tell me foods rich in protein",
+        "Give me details about tomatoes",
+        "What are the best plant-based protein sources?",
+        "What is the carbohydrate value of sweet potatoes?",
+        "What are the benefits of eating eggs?",
+        "Tell me about the fiber in oats",
+        "Are tomatoes good for health?",
+        "What are the nutritional benefits of lentils?",
+        "Why is green tea considered healthy?",
+        "Which foods are rich in antioxidants?",
+        "What foods are high in protein?",
+        "What foods are good for muscle repair?",
+        "What are heart-healthy food options?",
+        "Can you tell me more about salmon's omega-3 content?",
+        "What are good plant-based protein sources?"
+      ],
+      "responses": [
+        "Apple - Calories: 52, Protein: 0.3g, Carbs: 14g, Fat: 0.2g, Fiber: 2.4g, Sugar: 10g, Health Rating: Healthy, Improvement: Add protein source.",
+        "Banana - Calories: 89, Protein: 1.1g, Carbs: 23g, Fat: 0.3g, Fiber: 2.6g, Sugar: 12g, Health Rating: Healthy, Improvement: Eat in moderation.",
+        "Orange - Calories: 47, Protein: 0.9g, Carbs: 12g, Fat: 0.1g, Fiber: 2.4g, Sugar: 9.4g, Health Rating: Healthy, Improvement: Rich in Vitamin C.",
+        "Whole Milk - Calories: 150, Protein: 8g, Carbs: 12g, Fat: 8g, Fiber: 0g, Sugar: 12g, Health Rating: Healthy, Improvement: Rich in calcium.",
+        "Skim Milk - Calories: 90, Protein: 8g, Carbs: 12g, Fat: 0.2g, Fiber: 0g, Sugar: 12g, Health Rating: Healthy, Improvement: Low in fat.",
+        "Spinach: Calories - 23 per 100g, Protein - 2.9g, Carbs - 3.6g, Fat - 0.4g, Fiber - 2.2g. Benefits: Rich in iron, calcium, and vitamins A, C, and K. Supports bone health and immunity.",
+        "Sweet Potatoes: Calories - 86 per 100g, Protein - 1.6g, Carbs - 20g, Fat - 0.1g, Fiber - 3g. Benefits: High in beta-carotene and antioxidants. Good for eye health and digestion.",
+        "Almonds: Calories - 579 per 100g, Protein - 21g, Carbs - 22g, Fat - 50g, Fiber - 12g. Benefits: Excellent source of healthy fats, vitamin E, and magnesium. Supports brain and heart health.",
+        "Quinoa: Calories - 120 per 100g (cooked), Protein - 4.1g, Carbs - 21g, Fat - 1.9g, Fiber - 2.8g. Benefits: High in protein and contains all essential amino acids. Great for energy and muscle repair.",
+        "Greek Yogurt: Calories - 59 per 100g, Protein - 10g, Carbs - 3.6g, Fat - 0.4g. Benefits: Packed with probiotics for gut health, calcium for bones, and protein for muscle growth.",
+        "Avocado: Calories - 160 per 100g, Protein - 2g, Carbs - 9g, Fat - 15g, Fiber - 7g. Benefits: Loaded with healthy monounsaturated fats and potassium. Supports heart health and skin hydration.",
+        "Broccoli: Calories - 34 per 100g, Protein - 2.8g, Carbs - 6.6g, Fat - 0.4g, Fiber - 2.6g. Benefits: Rich in vitamins C, K, and folate. Known for its antioxidant and anti-inflammatory properties.",
+        "Blueberries: Calories - 57 per 100g, Protein - 0.7g, Carbs - 14g, Fat - 0.3g, Fiber - 2.4g. Benefits: High in antioxidants like anthocyanins. Boosts brain function and supports heart health.",
+        "Chickpeas: Calories - 164 per 100g (cooked), Protein - 8.9g, Carbs - 27g, Fat - 2.6g, Fiber - 7.6g. Benefits: Great source of plant-based protein, fiber, and minerals. Promotes digestion and muscle health.",
+        "Salmon: Calories - 208 per 100g, Protein - 20g, Carbs - 0g, Fat - 13g, Omega-3 Fatty Acids - 2.6g. Benefits: High in omega-3s, supports brain and heart health, and reduces inflammation.",
+        "Eggs: Calories - 68 per medium egg, Protein - 6g, Carbs - 0.6g, Fat - 4.8g. Benefits: Rich in high-quality protein, vitamin D, and choline. Supports muscle growth and brain health.",
+        "Oats: Calories - 389 per 100g, Protein - 16.9g, Carbs - 66g, Fat - 6.9g, Fiber - 10.6g. Benefits: Excellent source of soluble fiber, helps regulate blood sugar and cholesterol levels.",
+        "Tomatoes: Calories - 18 per 100g, Protein - 0.9g, Carbs - 3.9g, Fat - 0.2g, Fiber - 1.2g. Benefits: Rich in lycopene, vitamin C, and potassium. Good for skin health and heart health.",
+        "Lentils: Calories - 116 per 100g (cooked), Protein - 9g, Carbs - 20g, Fat - 0.4g, Fiber - 7.9g. Benefits: Packed with plant-based protein, iron, and folate. Supports muscle repair and energy production.",
+        "Green Tea: Calories - 2 per 100ml, Caffeine - 35mg, Antioxidants - High. Benefits: Rich in catechins, helps boost metabolism and promotes relaxation."
+      ]
+    },
+    {
+      "tag": "healthy_indian_recipes",
+      "patterns": [
+        "Give me a healthy Indian recipe",
+        "Tell me some healthy Indian food recipes",
+        "Suggest an Indian dish that is healthy",
+        "Can you recommend a healthy Indian recipe?",
+        "What is a healthy Indian recipe?",
+        "healthy recipes",
+        "recipe",
+        "Indian recipe",
+        "healthy Indian recipe",
+        "Give me recipes for a balanced diet",
+        "What are some healthy meal ideas?",
+        "Share a healthy recipe",
+        "What can I cook for a healthy diet?",
+        "Give me some healthy recipe suggestions",
+        "What are good healthy food recipes?",
+        "Suggest recipes for a healthy diet",
+        "What are some easy healthy recipes?",
+        "Tell me about nutritious recipes",
+        "Can you give me some Indian salad recipes?",
+        "Tell me about healthy Indian salads",
+        "Give me a salad recipe",
+        "What are some healthy Indian salad options?",
+        "Suggest a healthy salad recipe",
+        "What are the ingredients for Indian salads?",
+        "Can you share a nutritious salad recipe?",
+        "What are some refreshing Indian salad ideas?",
+        "Give me an Indian salad recipe"
+      ],
+      "responses": [
+        "1. **Moong Dal Chilla (Lentil Pancakes)** - A healthy breakfast made from moong dal (yellow lentils), packed with protein and fiber.\nIngredients: Moong dal, onion, tomato, spinach, cumin seeds, salt.\nMethod: Soak moong dal, grind it into a smooth batter, and add spices. Cook on a non-stick pan like a pancake. Serve with mint chutney.",
+        "2. **Vegetable Pulao** - A one-pot healthy rice dish with mixed vegetables, a great option for lunch.\nIngredients: Rice, mixed vegetables (carrot, peas, beans), cumin, bay leaf, cinnamon stick, ginger, garlic, salt.\nMethod: Sauté vegetables with spices, add rice and water, cook until rice is tender. Serve with raita.",
+        "3. **Palak (Spinach) Soup** - A nutritious soup made from spinach, ideal for a light dinner.\nIngredients: Fresh spinach, ginger, garlic, cumin seeds, onion, tomato, salt, pepper.\nMethod: Boil spinach leaves, blend them, and sauté with onions and spices. Serve hot.",
+        "4. **Grilled Paneer Tikka** - A protein-rich dish with a delicious smoky flavor, made from paneer (Indian cottage cheese).\nIngredients: Paneer, yogurt, red chili powder, turmeric, ginger-garlic paste, lemon juice, salt.\nMethod: Marinate paneer in yogurt and spices, grill until golden brown. Serve with a side of mint chutney.",
+        "5. **Chickpea Salad** - A healthy, high-protein salad made from chickpeas, perfect as a snack or side dish.\nIngredients: Boiled chickpeas, cucumber, tomatoes, onions, lemon, olive oil, salt, pepper.\nMethod: Toss the ingredients together and season with lemon and olive oil. Serve chilled.",
+        "Vegetable Quinoa:\nIngredients: 1 cup quinoa, 2 cups mixed vegetables (carrots, peas, bell peppers), 1 tbsp olive oil, salt, and spices to taste.\nSteps: Cook quinoa as per instructions. In a pan, sauté vegetables with olive oil, add salt and spices. Mix with cooked quinoa. A high-protein, fiber-rich meal!",
+        "Masoor Dal Soup:\nIngredients: 1/2 cup red lentils, 1 tomato, 1 small onion, garlic, and spices.\nSteps: Boil lentils with tomato, onion, and garlic. Blend and strain to a smooth consistency. Add spices like cumin and black pepper. A perfect dish for protein and digestion.",
+        "Vegetable Stir-fry:\nIngredients: Assorted vegetables (broccoli, zucchini, carrots, bell peppers), 1 tbsp olive oil, 1 tbsp soy sauce.\nSteps: Heat olive oil, add chopped vegetables, stir-fry for 5-7 minutes. Add soy sauce and stir well. Pair with brown rice or eat as is for a low-calorie meal.",
+        "Palak Paneer:\nIngredients: 200g paneer, 2 cups spinach, 1 onion, 1 tomato, garlic, and spices.\nSteps: Blanch spinach, blend into a puree. In a pan, sauté onion and tomato, add spinach puree and spices. Add paneer cubes and simmer. A nutritious dish rich in protein and iron.",
+        "Ragi Dosa:\nIngredients: 1 cup ragi flour, 1/2 cup rice flour, curd, and salt.\nSteps: Mix ragi flour, rice flour, curd, and water to make a batter. Cook on a hot pan like a dosa. Serve with coconut chutney. A calcium-rich breakfast option.",
+        "Cucumber and Tomato Salad:\nIngredients: 1 cucumber, 2 tomatoes, 1 small onion, lemon juice, salt, black pepper, and a pinch of chat masala.\nSteps: Chop cucumber, tomatoes, and onion. Toss them with lemon juice, salt, black pepper, and chat masala. A refreshing, hydrating salad perfect for hot weather.",
+        "Carrot and Cabbage Salad:\nIngredients: 1 carrot, 1/2 cabbage, lemon juice, salt, and a pinch of black pepper.\nSteps: Grate carrot and finely chop cabbage. Mix them together, add lemon juice, salt, and black pepper to taste. A crunchy and fiber-rich salad.",
+        "Sprouted Moong Salad:\nIngredients: 1 cup sprouted moong beans, 1 tomato, 1 cucumber, coriander leaves, lemon juice, chat masala.\nSteps: Mix the sprouted moong beans with chopped tomato, cucumber, and coriander leaves. Add lemon juice and chat masala for extra flavor. Rich in protein and great for digestion.",
+        "Palak (Spinach) and Apple Salad:\nIngredients: 1 cup spinach, 1 apple, pomegranate seeds, lemon juice, and salt.\nSteps: Tear spinach leaves and chop the apple into bite-sized pieces. Toss with pomegranate seeds, lemon juice, and a pinch of salt. A vitamin-packed, antioxidant-rich salad.",
+        "Beetroot and Carrot Salad:\nIngredients: 1 beetroot, 1 carrot, 1 lemon, salt, and pepper.\nSteps: Grate beetroot and carrot. Add lemon juice, salt, and pepper to taste. This salad is rich in iron and Vitamin A, perfect for boosting energy levels."
+      ]
+      
+    },
+    {
+      "tag": "exercise_routines",
+      "patterns": [
+        "Can you suggest some daily exercises?",
+        "What are good exercises for weight loss?",
+        "Tell me exercises for weight gain.",
+        "How can I relieve body pain through exercises?",
+        "What are some specific exercises for anxiety and stress?",
+        "Suggest exercises for a healthy lifestyle",
+        "What are the best exercises for overall fitness?",
+        "How do I improve my physical health?",
+        "Can you suggest some daily exercises?",
+        "What are good exercises for weight loss?",
+        "Tell me exercises for weight gain.",
+        "How can I relieve body pain through exercises?",
+        "What are some specific exercises for anxiety and stress?",
+        "Suggest exercises for a healthy lifestyle",
+        "What are the best exercises for overall fitness?",
+        "How do I improve my physical health?",
+        "What are the exercises I should do every day?",
+        "Give me some workout suggestions"
+      ],
+      "responses": [
+        "A. Daily Routine:\nMonday: Jumping Jacks, Push-ups, Squats - Duration: 30 mins\nTuesday: Yoga, Jogging, Lunges - Duration: 30 mins.",
+        "B. Weight Loss Exercises:\nRunning - Calories Burned: 300-400 (30 mins)\nCycling - Calories Burned: 250-350 (30 mins)",
+        "C. Weight Gain Exercises:\nSquats - Target: Legs, Glutes.\nDeadlifts - Target: Back, Core.",
+        "D. Pain Relief:\nLower Back Pain - Child’s Pose: Hold for 30 secs, repeat 3 times.\nNeck Pain - Neck Stretch: Tilt head to the side, hold for 20 secs.",
+        "E. Yoga for Anxiety/Stress:\nChild’s Pose - Reduces stress.\nDeep Breathing - Duration: 5 mins."
+      ]
+    },
+    {
+      "tag": "strength_training",
+      "patterns": [
+        "What are some strength training exercises?",
+        "Can you suggest strength exercises for muscle gain?",
+        "Tell me some strength exercises",
+        "What exercises help build strength?",
+        "How can I improve my strength?"
+      ],
+      "responses": [
+        "Push-ups: 3 sets of 10-15 reps. Targets chest, arms, and core.\nPull-ups: 3 sets of 6-10 reps. Great for back and arms.\nSquats: 3 sets of 10-20 reps. Builds lower body strength.\nDeadlifts: 3 sets of 6-8 reps. Strengthens the back and legs.\nOverhead Press: 3 sets of 8-10 reps. Targets shoulders and triceps.\nDumbbell Rows: 3 sets of 10-12 reps. Works the back muscles."
+      ]
+    },
+    {
+      "tag": "cardio_exercises",
+      "patterns": [
+        "What are the best cardio exercises?",
+        "Suggest some cardio exercises for fitness",
+        "Give me examples of cardio exercises",
+        "What exercises are good for improving cardiovascular health?",
+        "How can I improve my cardio endurance?"
+      ],
+      "responses": [
+        "Running: 30 minutes at moderate intensity. Boosts heart health and endurance.\nCycling: 30-45 minutes. Great for improving cardiovascular fitness and leg strength.\nJumping Rope: 10-15 minutes. Excellent for improving coordination and heart health.\nSwimming: 30 minutes. Full-body workout with cardiovascular benefits.\nHigh-Intensity Interval Training (HIIT): 20-30 minutes. Short bursts of intense exercise followed by rest, highly effective for improving cardiovascular fitness."
+      ]
+    },
+    {
+      "tag": "stretching_exercises",
+      "patterns": [
+        "Can you suggest some stretching exercises?",
+        "What are the best stretches for flexibility?",
+        "Tell me about exercises to improve flexibility",
+        "Give me some stretching exercises for the body",
+        "How can I increase my flexibility?"
+      ],
+      "responses": [
+        "Hamstring Stretch: Hold for 30 secs, repeat 3 times.\nQuad Stretch: Hold for 30 secs, repeat 3 times.\nChest Stretch: Hold for 30 secs, repeat 3 times.\nHip Flexor Stretch: Hold for 30 secs, repeat 3 times.\nCalf Stretch: Hold for 30 secs, repeat 3 times.\nShoulder Stretch: Hold for 30 secs, repeat 3 times."
+      ]
+    },
+    {
+      "tag": "anxiety_management",
+      "patterns": [
+        "anxiety",
+        "anxiety attack",
+        "How can I deal with anxiety?",
+        "What are some techniques for managing anxiety?",
+        "How can I overcome anxiety?",
+        "Tell me how to cope with anxiety",
+        "What should I do if I feel anxious?",
+        "How can I stop overthinking?"
+      ],
+      "responses": [
+        "Practice deep breathing exercises: Inhale for 4 seconds, hold for 4 seconds, and exhale for 4 seconds. Repeat this for a few minutes to calm your nervous system.",
+        "Try progressive muscle relaxation: Tense each muscle group for 5 seconds, then relax for 10 seconds. Start from your toes and work your way up.",
+        "Mindfulness meditation can help ground you in the present moment. Focus on your breath and let go of racing thoughts.",
+        "Exercise regularly, as physical activity releases endorphins that improve mood and reduce anxiety.",
+        "Keep a journal: Write down your anxious thoughts and reflect on them. This can help you gain perspective and reduce mental clutter.",
+        "Break tasks into small steps: If you're feeling overwhelmed, focus on one small step at a time rather than worrying about everything at once."
+      ]
+    },
+    {
+      "tag": "insecurities_management",
+      "patterns": [
+        "feeling insecure",
+        "insecure feeling",
+        "insecurities",
+        "How can I deal with my insecurities?",
+        "What can I do to stop feeling insecure?",
+        "How do I overcome self-doubt?",
+        "How can I build my confidence?",
+        "Tell me how to feel more secure in myself",
+        "I have low self-esteem, what should I do?"
+      ],
+      "responses": [
+        "Practice self-compassion: Be kind to yourself and understand that everyone has insecurities. Focus on your strengths rather than your flaws.",
+        "Challenge negative thoughts: When you catch yourself thinking negatively, counter it with positive affirmations. For example, tell yourself 'I am worthy' or 'I am enough.'",
+        "Surround yourself with supportive people: Build a positive support system that encourages you and helps you feel confident.",
+        "Set achievable goals: Small successes can build your confidence over time. Celebrate your wins, no matter how small.",
+        "Engage in activities that make you feel good about yourself: Whether it's a hobby or something you're passionate about, doing what you love can boost your self-esteem.",
+        "Remember that growth is a process: Understand that it's okay to have insecurities, and it's normal to work through them. Confidence is built over time."
+      ]
+    },
+    {
+      "tag": "stress_relief",
+      "patterns": [
+        "stress relief techniques",
+        "stress burster",
+        "stress",
+        "How can I relieve stress?",
+        "What are some techniques to reduce stress?",
+        "How do I manage stress effectively?",
+        "Give me tips for stress relief",
+        "Tell me ways to reduce stress and anxiety",
+        "What should I do if I feel stressed?",
+        "How can I calm my mind and reduce stress?"
+      ],
+      "responses": [
+        "Here are some stress relief techniques you can try: 1. Deep Breathing: Take slow, deep breaths in through your nose for a count of four, hold for four seconds, then exhale slowly through your mouth. Repeat for 5-10 minutes to calm your nervous system",
+         "Progressive Muscle Relaxation (PMR): Starting from your toes, tense each muscle group in your body for 5-10 seconds, then release. Move up your body, from feet to head, focusing on muscle relaxation.",
+          "Mindfulness Meditation: Sit in a quiet space, close your eyes, and focus on your breathing. If your mind wanders, gently bring your attention back to your breath. Practice for 5-15 minutes to calm your thoughts.", 
+          "Visualization: Close your eyes and imagine yourself in a peaceful, calming place such as a beach or forest. Engage all your senses and focus on the sights, sounds, and smells. This technique helps to create a mental escape from stress.",
+          "Exercise: Physical activity, such as walking, yoga, or swimming, releases endorphins, which help boost your mood and reduce stress. Aim for at least 30 minutes of moderate exercise a few times a week.", 
+            "Aromatherapy: Essential oils like lavender, chamomile, or eucalyptus can help to relax your mind and body. Use them in a diffuser, or apply a few drops to your wrists or pillow.", 
+          "Journaling: Writing down your thoughts can help release pent-up emotions and reduce anxiety. Try journaling your worries and reflecting on positive aspects of your day.",
+          "Listening to Music: Play calming music or nature sounds to reduce stress. Music has been shown to lower cortisol levels and improve mood.", 
+           "Taking Breaks: Give yourself short breaks throughout the day. Step away from work or any stressful situations, take a short walk, or engage in a brief relaxing activity.", 
+           " Talk to Someone: Sometimes simply talking to a trusted friend, family member, or therapist can help you process your stress and feel supported."
+      ]
+      
+    },
+    {
+      "tag": "well_being_tips",
+      "patterns": [
+        "I am not feeling well these days.",
+        "Can you help me feel better?",
+        "What should I do if I am feeling unwell?",
+        "How can I improve my health?",
+        "Give me tips to overcome feeling sick",
+        "I feel down, what can I do?"
+      ],
+      "responses": [
+        "Make sure you're eating well-balanced meals, staying hydrated, and getting enough rest. A balanced diet with plenty of fruits, vegetables, and whole grains will help.",
+        "Exercise gently if you can. Even a short walk or stretching can help improve your mood and energy levels.",
+        "Practice mindfulness or meditation to reduce stress and improve mental clarity.",
+        "Ensure you're getting enough sleep each night. Lack of sleep can weaken your immune system and overall well-being.",
+        "Consult a healthcare professional if you're feeling consistently unwell, as they can give you specific advice based on your condition."
+      ]
+    },
+    {
+      "tag": "self_love",
+      "patterns": [
+        "How can I practice self-love?",
+        "What are some tips for loving myself?",
+        "How do I develop self-love?",
+        "Tell me how to care for myself better",
+        "I feel like I don't love myself, what should I do?",
+        "How can I improve my self-esteem through self-love?"
+      ],
+      "responses": [
+        " Practice Positive Affirmations**:\n   - Start your day with affirmations like 'I am enough,' 'I deserve love and respect,' or 'I am proud of myself.' Repeat these to reframe your mindset.",
+        " Set Healthy Boundaries**:\n   - Learn to say no without guilt and prioritize your well-being. Boundaries help you value yourself and your time.",
+        " Engage in Self-Care Activities**:\n   - Dedicate time to activities you enjoy, such as reading, exercising, meditating, or pampering yourself with a skincare routine.",
+        "Forgive Yourself**:\n   - Let go of past mistakes and treat yourself with compassion. Remember that everyone makes mistakes, and it's part of learning.",
+        "Focus on Your Strengths**:\n   - Celebrate your achievements, talents, and qualities that make you unique. Write them down and revisit them often.",
+        "Surround Yourself with Positivity**:\n   - Spend time with people who uplift and inspire you. Reduce time spent with those who drain your energy or make you feel inadequate.",
+        "Journaling**:\n   - Reflect on your thoughts and feelings by writing in a journal. Use prompts like 'What do I appreciate about myself?' or 'What am I proud of today?'",
+        "Gratitude Practice**:\n   - Focus on the positive aspects of your life by listing things you're grateful for each day. Gratitude can shift your mindset and enhance self-love."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell coffee and tea",
+        "We have coffee and tea"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [
+        "*"
+      ],
+      "responses": [
+        "I'm sorry, I didn't understand that. You can prefer Chatgpt for better understanding.",
+        "I didn't catch that. You can try rephrasing your question or ask something specific."
+      ]
+    }
+  ]
+}
